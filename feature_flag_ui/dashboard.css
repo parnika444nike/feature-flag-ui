@@ -1,0 +1,222 @@
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+.tableblock{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.dashboard-title{
+    margin-top: 5px;
+    font-size: 34px;
+    
+ 
+    
+}
+
+.top-content{
+    display: flex;
+    margin-bottom: -25px;
+}
+.newtable{
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.cancelbtn{
+    border: none;
+    border-radius: 8px;
+    color: black;
+    background-color: rgb(220, 220, 220);
+    padding: 7px;
+    margin-left: 420px;
+    margin-top: 5px;
+    font-size: 14px; 
+    margin-right: 5px;
+    width: 52%;
+
+}
+.cancelbtn2{
+    border: none;
+    border-radius: 8px;
+    color: black;
+    background-color: rgb(220, 220, 220);
+    padding: 7px;
+    margin-left: 428px;
+    margin-top: 5px;
+    font-size: 14px; 
+    margin-right: 5px;
+    width: 50%;
+
+}
+
+
+
+
+.updatetitle{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.createtitle{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.mb-2{
+    margin-left: 50px;
+    display: flex;
+}
+
+.createbtn{
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left:1100px ;
+    margin-bottom: 50px;
+    margin-top: 15px;
+   
+}
+
+
+.updatebtn{
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin-left: 430px;
+    margin-top: 3px;
+    font-size: 14px; 
+    margin-right: 5px;
+    width: 50%;
+
+  }
+.createbtnn{
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin-left: 420px;
+    margin-top: 3px;
+    font-size: 14px; 
+    margin-right: 5px;
+    width: 52%;
+    
+}
+  .updatebtnn{
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin-top: -30px;
+    font-size: 14px;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+.viewbtn{
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin-top: 3px;
+    font-size: 14px;
+  }
+
+
+.labelstatus{
+    margin-right: 28px;
+    
+}
+.labeldescr{
+    margin-left: 20px;
+}
+.labelstart{
+    margin-right: 40px;
+}
+.labelstarttime{
+    margin-right: 27px;
+}
+.labelstartzone{
+    margin-right: 25px;
+}
+.labelend{
+    margin-right: 50px;
+}
+.labelendtime{
+    margin-right: 25px;
+}
+.labelendzone{
+    margin-right: 25px;
+}
+
+.labeltest{
+    margin-right: 25px;
+}
+.labeldev{
+    margin-right: 25px;
+}
+
+.labelendd{
+    margin-left: -20px;
+}
+.labelprodd{
+    margin-left: 20px;
+}
+.labelstatuss{
+    margin-left: 20px;
+}
+.nav-bar{
+    width: 1000%;
+    background-color: rgb(241, 241, 241);
+    height: 35px;
+    padding-top:0.5%;
+    margin-top: 0px;
+    display: flex;
+}
+
+.nav-home{
+    padding-left:10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.nav-accountone{
+    margin-left: 1170px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.nav-accounttwo{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.nav-mid{
+    display: flex;
+}
+.nav-logo{
+    width: 10%;
+    
+}
+.nav-slogan{
+    margin-left: 550px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.labelprod{
+    margin-left: 15px;
+}
