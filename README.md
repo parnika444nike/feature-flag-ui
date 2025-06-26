@@ -1,4 +1,4 @@
-# feature-flag-ui
+# Feature Flag UI
 Internal tool developed to deploy features and initialise other related attributes for a smooth AB testing experience.
 
 
