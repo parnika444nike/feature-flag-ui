@@ -17,12 +17,13 @@ The following are the various tech using which the UI was built:
 
 ## 2. Setup
 
--  Download XAMPP.
--  Run both Apache and MySQL.
+-  Download XAMPP
+-  Run both Apache and MySQL
 - Open a browser and go to -```http://localhost/phpmyadmin/index.php?route=/database/structure&db=DB_NAME```
-- This will be the database for the project and the flags will be updated here as well.
+- This will be the database for the project and the flags will be updated here as well
 - Run the server with `node db.js`
 - Run the UI with `npm run start`
+- Run `home.html` and inspect console to view short polling 
 
 **Note-** The server must be restarted everytime a change is made in db.js
 
