@@ -1,4 +1,7 @@
 @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+*{
+
+}
 .tableblock{
     margin-left: 20px;
     margin-top: 20px;
@@ -77,12 +80,16 @@
     background-color: black;
     color: white;
     padding: 5px;
-    margin-left:1100px ;
-    margin-bottom: 50px;
-    margin-top: 15px;
+    margin-left:1135px ;
+    margin-bottom: 20px;
+    
    
 }
 
+.search-create{
+    display: flex;
+    margin-top: 30px;
+}
 
 .updatebtn{
     border: none;
@@ -140,7 +147,8 @@
     margin-left: 20px;
 }
 .labelstart{
-    margin-right: 40px;
+    margin-right: 22px;
+
 }
 .labelstarttime{
     margin-right: 27px;
@@ -210,7 +218,17 @@
     margin-left: 550px;
     padding-top: 10px;
 }
-
+.search-bar{
+    background-color: rgb(235, 235, 235);
+    border: none;
+    color: black;
+    border-radius: 6px;
+    height: 35px;
+    width: 230px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-style: italic;
+}
 
 
 
