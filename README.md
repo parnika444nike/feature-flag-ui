@@ -32,7 +32,7 @@ Frontend -
 
 
 
-## 3. Setup
+## 3. How to Run the Project
 
 -  Download XAMPP
 -  Run both Apache and MySQL
