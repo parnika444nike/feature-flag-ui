@@ -15,7 +15,24 @@ The following are the various tech using which the UI was built:
 - **CSS**
 
 
-## 2. Setup
+## 2. Project Setup
+Create project folder and open it on VSCode.
+
+Server side -
+- create folder `backend`
+- `cd backend`
+- In terminal - `npm init -y`
+- Then run - `npm install mysql express`
+- Finally run - `npm i cors`
+- create file `db.js`
+
+Frontend -
+- `cd ..`
+- Run - `npm create-react-app frontend`
+
+
+
+## 3. Setup
 
 -  Download XAMPP
 -  Run both Apache and MySQL
@@ -28,7 +45,7 @@ The following are the various tech using which the UI was built:
 **Note-** The server must be restarted everytime a change is made in db.js
 
 
- ## 3. How It Works
+ ## 4. How It Works
 
 The feature flag UI allows users to perform 3 main functions -
 
@@ -71,7 +88,7 @@ Only the following feature flag details can be updated -
 
 
 
-## 4. Terminology (in code)
+## 5. Terminology (in code)
 
 - **finaldb** - MySQL database.
 - **featuretable** - MySQL table storing all the data.
@@ -81,7 +98,7 @@ Only the following feature flag details can be updated -
 - **UpdateFeature.js** - Page to update the feature attributes.
 
 
-## 5. Short Polling
+## 6. Short Polling
 
 -Short polling is a method of client-server communication where the client repeatedly asks the server for any updates. 
 
@@ -95,7 +112,7 @@ Only the following feature flag details can be updated -
 The console can be inspected to view the real time polling occuring. 
 
 
-## 6. Future Scope  
+## 7. Future Scope  
 
 - Short polling might be capable of providing high frequency polling and statlessness but the continuous communication costs eventually add up. 
 - GRPCs (GRPC Remote Procedure Calls) are a new technology that can be implemented to avoid the costs and just let the server send the data in case of any updates. 
